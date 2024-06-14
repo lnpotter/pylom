@@ -1,3 +1,0 @@
-[INFO] 2024-06-14T19:30:37.316988+00:00 ..\examples\logger.py:19 Logging with default settings.
-[WARNING] 2024-06-14T19:30:37.316988+00:00 ..\examples\logger.py:20 A warning message.
-[INFO] 2024-06-14 16:30:37 - Logging with a custom message template.

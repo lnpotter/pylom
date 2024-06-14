@@ -1,1 +1,0 @@
-[INFO] 2024-06-14T19:30:37.332608+00:00 ..\examples\logger.py:24 Logging with a custom log file name.
