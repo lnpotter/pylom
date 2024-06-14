@@ -30,7 +30,7 @@ class Logger:
     def __init__(self, name: str = None, file=None, template: str = "[{_type}] {timestamp} {file}:{line} {message}", timestamp_format: str = None) -> None:
         frame_info = inspect.stack()[1]
         self.name = name or os.path.splitext(os.path.basename(frame_info.filename))[0]
-        self.file = file or open(os.path.join(_logs_path, f"{self.name}.txt"), 'a')
+        self.file = file or open(os.path.join(_logs_path, f"{self.name}.txt"), "a")
         self.template = template
         self.timestamp_format = timestamp_format
 
