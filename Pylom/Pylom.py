@@ -14,7 +14,7 @@ class Logger:
 
     Usage:
     with Logger() as log:
-        log.info("Example!")
+        log.info("Information here.")
 
     Attributes:
     name : str, optional
